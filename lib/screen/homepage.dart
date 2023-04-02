@@ -15,6 +15,7 @@ class _HomePageState extends State<HomePage> {
   List<Map<String, dynamic>> _items = [];
 
   final _mydatabase = Hive.box('mydatabase');
+
   @override
   void initState() {
     super.initState();
